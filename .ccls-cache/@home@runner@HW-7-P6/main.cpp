@@ -18,7 +18,10 @@ int main()
   cout << setprecision(2);
   cout << setw(10) << "Resistance" << setw(4) << ' ' << setw(10) << "Current" << setw(4) << ' ' << setw(10) << "Power" << endl;
 
-
+  for (int i = 0; i < 5; i++)
+    {
+      
+    }
   
 }
 
