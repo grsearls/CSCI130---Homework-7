@@ -8,8 +8,13 @@ int main()
   double current[5];
   double power[5];
 
-  
-  
+  for(int i = 0; i < 5; i++)
+    {
+      power[i] = resistance[i] * current[i] * current[i];
+      
+      
+    }
+
   
 }
 
