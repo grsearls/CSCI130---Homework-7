@@ -1,31 +1,15 @@
 #include <iostream>
+#include <iomanip>
+
 using namespace std;
-
-
-
 int main()
 {
+  double resistance[5] = {16, 27, 39, 56, 81};
+  double current[5];
+  double power[5];
 
-  int n;
-  int junk[n];
-  int least = -1;
-  int days;
-  cin >> n;
-
-  for(int i = 0; i < 0; i++)
-    {
-      cin >> junk[i];
-
-      if(junk[i] < least)
-      {
-        least = junk[i];
-        days = i;
-      }
-    }
-
-  cout << days << endl;
-
-  return 0;
+  
+  
   
 }
 

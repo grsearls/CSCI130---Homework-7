@@ -1,5 +1,16 @@
 #include <iostream>
+#include <iomanip>
 
-int main() {
-  std::cout << "Hello World!\n";
+using namespace std;
+int main()
+{
+  double resistance[5] = {16, 27, 39, 56, 81};
+  double current[5];
+  double power[5];
+
+  
+  
+  
 }
+
+
