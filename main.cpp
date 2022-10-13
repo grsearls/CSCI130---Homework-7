@@ -10,6 +10,11 @@ int main()
 
   for(int i = 0; i < 5; i++)
     {
+      cin >> current[i];
+    }
+
+  for(int i = 0; i < 5; i++)
+    {
       power[i] = resistance[i] * current[i] * current[i];
       
       
@@ -20,7 +25,7 @@ int main()
 
   for (int i = 0; i < 5; i++)
     {
-      
+      cout << setw(10) << resistance[i] << setw(4) << ' ' << setw(10) << current[i] << setw(4) << ' ' << setw(10) << power[i] << endl;
     }
   
 }
