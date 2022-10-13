@@ -19,7 +19,8 @@ int main() {
 
   int hours, seconds, minutes;
   time(3600, hours, minutes, seconds);
-  
+
+  cout << hours << " " << minutes << " " << seconds << endl;
 
   
 }
