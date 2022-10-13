@@ -17,6 +17,8 @@ void time(int seconds, int hours, int minutes, int secs)
 
 int main() {
 
+  int hours, seconds, minutes;
+  time(3600, hours, minutes, seconds);
   
 
   
